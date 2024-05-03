@@ -21,8 +21,10 @@ let getWeather = () => {
         console.log(data.main);
         console.log(data.main.temp_min);
         console.log(data.main.temp_max);
+        console.log(data.sys.country);
         result.innerHTML = `
         <h2>${data.name}</h2>
+        <h2>${data.sys.country}</h3>
         <h4 class="weather">${data.weather[0].main}
         </h4>
         <h4 class="desc">${data.weather[0].description}</h4>
