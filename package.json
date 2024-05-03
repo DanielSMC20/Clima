@@ -1,0 +1,14 @@
+{
+  "name": "daniel",
+  "version": "1.0.0",
+  "description": "index",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "index.html"
+  },
+  "author": "",
+  "license": "ISC"
+}

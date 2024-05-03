@@ -158,3 +158,6 @@ color: var(--off-white);
     
 }
 
+#search-btn:hover {
+    cursor: pointer;
+}
